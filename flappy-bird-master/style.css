@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Inter:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', helvetica, sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+body {
+    background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.game-title h1 {
+    text-align: center;
+    font-family: 'Carter One', cursive;
+    color: #fbbf24;
+    font-size: 2.8em;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    text-shadow: 0 4px 12px rgba(251, 191, 36, 0.35), 2px 3px 0px #78350f;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.game-screen {
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 30px rgba(251, 191, 36, 0.15);
+    border-radius: 12px;
+}
+
+canvas {
+    background-color: #00bbc4;
+    display: block;
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.game-description {
+    color: #94a3b8;
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 0.88em;
+    font-weight: 500;
+    margin: 4px 0 0 0;
+    letter-spacing: 0.5px;
+}
